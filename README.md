@@ -1,7 +1,7 @@
 <div align="center">
     <br/>
   <p>
-  <h1>Emoji.gg wrraper for Node.js</h1>
+  <h1>Emoji.gg wrapper for Node.js</h1>
   </p>
   <p>
     <a href="https://www.npmjs.com/package/emojigg"><img src="https://img.shields.io/npm/v/emojigg.svg?maxAge=3600" alt="npm version" /></a>
