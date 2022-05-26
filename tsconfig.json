@@ -5,7 +5,8 @@
       "ESNext"
     ],
     "module": "CommonJS",
-    "rootDir": "./",
+    "rootDir": "lib",
+    "allowJs": false,
     "declaration": true,
     "outDir": "./dist",
     "esModuleInterop": true,

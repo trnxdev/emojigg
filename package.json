@@ -1,11 +1,9 @@
 {
   "name": "emojigg",
-  "version": "1.0.4",
+  "version": "1.1.6",
   "description": "An emoji.gg api wrapper",
-  "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "main": "dist/emoji.js",
+  "types": "dist/emoji.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",

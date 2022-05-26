@@ -4,12 +4,12 @@ import { EmojiGetArg, EmojiGgStats, EmojiResult } from './@types';
 class Exports {
     constructor() {}
 
-    static get(arg: EmojiGetArg): Promise<EmojiResult> {
+    static get(arg: EmojiGetArg): Promise<EmojiResult | EmojiResult[]> {
         return new Promise(async (resolve) => {
             if(typeof arg === 'number')
-                resolve((await axios.get(`https://emoji.gg/api/`)).data.find((emoji: EmojiResult) => emoji.id === arg));
+                resolve(<EmojiResult>(await axios.get(`https://emoji.gg/api/`)).data.find((emoji: EmojiResult) => emoji.id === arg));
             else if(typeof arg === 'string')
-                resolve((await axios.get(`https://emoji.gg/api/`)).data.filter((g: EmojiResult) => g.title.includes(arg)));
+                resolve(<EmojiResult[]>(await axios.get(`https://emoji.gg/api/`)).data.filter((g: EmojiResult) => g.title.includes(arg)));
         })
     }
 
@@ -21,3 +21,4 @@ class Exports {
 }
 
 export default Exports;
+export { EmojiGetArg, EmojiGgStats, EmojiResult };
