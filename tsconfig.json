@@ -1,12 +1,29 @@
 {
-  "include": ["src"],
   "compilerOptions": {
-    "target": "es2018",
-    "moduleResolution": "node",
-    "declaration": true, // generate .d.ts files
-    "sourceMap": true, // generate source map
-    "outDir": "dist", // output compiled js, d.ts, and source map to dist folder
+    "target": "ESNext",
+    "lib": [
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "rootDir": "./",
+    "declaration": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "esModuleInterop": true
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true
   }
 }

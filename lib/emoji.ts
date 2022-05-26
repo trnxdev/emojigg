@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { EmojiGetArg, EmojiGgStats, EmojiResult } from './typing';
+import { EmojiGetArg, EmojiGgStats, EmojiResult } from './@types';
 
 class Exports {
     constructor() {}
