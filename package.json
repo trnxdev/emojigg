@@ -1,0 +1,29 @@
+{
+  "name": "emojigg",
+  "version": "1.0.0",
+  "description": "An emoji.gg api wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiranexDev/emojigg.git"
+  },
+  "keywords": [
+    "emoji",
+    "emojigg",
+    "emoji.gg",
+    "emoji-api",
+    "emojiapi"
+  ],
+  "author": "TiranexDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiranexDev/emojigg/issues"
+  },
+  "homepage": "https://github.com/TiranexDev/emojigg#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
