@@ -6,7 +6,7 @@
   "types": "dist/emoji.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "npx tsc",
     "preversion": "npm run build",
     "postversion": "git push --follow-tags"
   },
