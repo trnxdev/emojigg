@@ -1,6 +1,6 @@
 {
   "name": "emojigg",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "An emoji.gg api wrapper",
   "main": "dist/emoji.js",
   "types": "dist/emoji.d.ts",
